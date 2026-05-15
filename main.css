@@ -5,18 +5,21 @@ body {
     color: #222;
 }
 
-div {
+.site-header {
     background-color: #007c89;
-    text-align: right;
-    padding: 15px 30px;
+    padding: 16px 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-div img {
-    width: 120px;
+.deakin-logo {
+    width: 110px;
     height: auto;
     background-color: white;
     border-radius: 50%;
-    padding: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 h1 {
@@ -25,6 +28,11 @@ h1 {
     color: #005f73;
     text-align: center;
     margin-top: 35px;
+}
+
+h2 {
+    font-size: 25px;
+    font-family: Arial, sans-serif;
 }
 
 h3 {
@@ -67,4 +75,24 @@ a {
 
 a:hover {
     background-color: #005f73;
+}
+
+table {
+    width: 90%;
+    max-width: 900px;
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
 }
